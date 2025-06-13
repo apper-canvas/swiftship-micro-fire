@@ -67,35 +67,4 @@ export const routes = {
 };
 
 export const routeArray = Object.values(routes);
-  routes: {
-    id: 'routes',
-    label: 'Routes',
-    path: '/routes',
-    icon: 'Route',
-    component: Routes
-  },
-  analytics: {
-    id: 'analytics',
-    label: 'Analytics',
-    path: '/analytics',
-    icon: 'BarChart3',
-    component: Analytics
-  },
-  booking: {
-    id: 'booking',
-    label: 'Book Delivery',
-    path: '/booking',
-    icon: 'Plus',
-    component: Booking
-  },
-  tracking: {
-    id: 'tracking',
-    label: 'Track Package',
-    path: '/tracking',
-    icon: 'MapPin',
-    component: Tracking
-  }
-};
-
-export const routeArray = Object.values(routes);
 export default routes;
