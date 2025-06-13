@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "label": "Home",
+    "street": "123 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "country": "United States",
+    "isDefault": true,
+    "createdAt": "1/10/2024 8:00:00 AMZ",
+    "updatedAt": "2024-01-10T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "label": "Office",
+    "street": "456 Business Ave",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10002",
+    "country": "United States",
+    "isDefault": false,
+    "createdAt": "2024-01-12T14:30:00Z",
+    "updatedAt": "2024-01-12T14:30:00Z"
+  }
+]

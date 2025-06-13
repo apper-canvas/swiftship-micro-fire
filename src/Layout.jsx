@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import ApperIcon from '@/components/ApperIcon';
+import UserMenu from '@/components/molecules/UserMenu';
 import { routes } from '@/config/routes';
-
 const Layout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();
@@ -62,15 +62,13 @@ const Layout = () => {
             ))}
           </div>
 
-          {/* User menu */}
+{/* User menu */}
           <div className="flex items-center space-x-3">
             <button className="p-2 rounded-lg hover:bg-surface-100 transition-colors relative">
               <ApperIcon name="Bell" size={20} className="text-surface-600" />
               <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full"></span>
             </button>
-            <div className="w-8 h-8 bg-surface-300 rounded-full flex items-center justify-center">
-              <ApperIcon name="User" size={16} className="text-surface-600" />
-            </div>
+            <UserMenu />
           </div>
         </div>
       </header>

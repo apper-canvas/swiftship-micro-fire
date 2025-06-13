@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "email": {
+      "orderUpdates": true,
+      "promotions": false,
+      "weeklySummary": true
+    },
+    "sms": {
+      "deliveryNotifications": true,
+      "urgentUpdates": true
+    },
+    "push": {
+      "enabled": true
+    },
+    "updatedAt": "2024-01-15T10:30:00Z"
+  }
+]
