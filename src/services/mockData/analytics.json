@@ -1,0 +1,118 @@
+{
+  "overview": {
+    "totalOrders": 1247,
+    "activeDrivers": 23,
+    "onTimeDeliveries": 94.2,
+    "totalRevenue": 45680.50,
+    "averageDeliveryTime": 42,
+    "customerSatisfaction": 4.7,
+    "todayOrders": 89,
+    "yesterdayOrders": 76,
+    "weeklyGrowth": 12.5
+  },
+  "deliveryStats": {
+    "7d": {
+      "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "completed": [45, 52, 48, 61, 55, 73, 89],
+      "failed": [2, 3, 1, 4, 2, 5, 4],
+      "pending": [8, 12, 15, 18, 22, 25, 31]
+    },
+    "30d": {
+      "totalDeliveries": 1586,
+      "successRate": 96.8,
+      "averageDistance": 8.7,
+      "peakHours": ["12:00", "13:00", "18:00", "19:00"]
+    }
+  },
+  "driverPerformance": [
+    {
+      "id": "DRV-001",
+      "name": "Sarah Chen",
+      "deliveries": 156,
+      "onTimeRate": 94.2,
+      "rating": 4.8,
+      "earnings": 2840.50,
+      "efficiency": 92.1
+    },
+    {
+      "id": "DRV-002", 
+      "name": "Marcus Thompson",
+      "deliveries": 189,
+      "onTimeRate": 96.8,
+      "rating": 4.9,
+      "earnings": 3250.75,
+      "efficiency": 95.4
+    },
+    {
+      "id": "DRV-003",
+      "name": "Lisa Park",
+      "deliveries": 98,
+      "onTimeRate": 93.5,
+      "rating": 4.7,
+      "earnings": 1820.25,
+      "efficiency": 89.7
+    },
+    {
+      "id": "DRV-004",
+      "name": "James Wilson",
+      "deliveries": 142,
+      "onTimeRate": 91.7,
+      "rating": 4.6,
+      "earnings": 2540.00,
+      "efficiency": 87.3
+    },
+    {
+      "id": "DRV-005",
+      "name": "Amanda Rodriguez",
+      "deliveries": 124,
+      "onTimeRate": 95.4,
+      "rating": 4.9,
+      "earnings": 2180.75,
+      "efficiency": 93.8
+    }
+  ],
+  "revenueStats": {
+    "30d": {
+      "total": 45680.50,
+      "growth": 18.3,
+      "breakdown": {
+        "standard": 32500.25,
+        "express": 10850.75,
+        "urgent": 2329.50
+      },
+      "daily": [
+        { "date": "2024-01-01", "amount": 1240.50 },
+        { "date": "2024-01-02", "amount": 1380.75 },
+        { "date": "2024-01-03", "amount": 1156.25 },
+        { "date": "2024-01-04", "amount": 1520.00 },
+        { "date": "2024-01-05", "amount": 1675.50 }
+      ]
+    }
+  },
+  "routeEfficiency": {
+    "averageOptimization": 23.7,
+    "fuelSaved": 1850.5,
+    "timeSaved": 420,
+    "co2Reduced": 2340.8,
+    "topRoutes": [
+      {
+        "name": "Downtown Loop",
+        "efficiency": 87.5,
+        "usage": 245,
+        "avgTime": 35
+      },
+      {
+        "name": "Marina District",
+        "efficiency": 82.1,
+        "usage": 189,
+        "avgTime": 28
+      },
+      {
+        "name": "Mission Corridor",
+        "efficiency": 78.9,
+        "usage": 167,
+        "avgTime": 42
+      }
+    ]
+  }
+}

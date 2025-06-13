@@ -1,0 +1,164 @@
+[
+  {
+    "id": "VEH-001",
+    "type": "van",
+    "make": "Ford",
+    "model": "Transit",
+    "year": 2022,
+    "licensePlate": "ABC-123",
+    "driverId": "DRV-001",
+    "capacity": {
+      "maxWeight": 50,
+      "maxVolume": 2.5,
+      "dimensions": {
+        "length": 180,
+        "width": 140,
+        "height": 120
+      }
+    },
+    "fuelType": "gasoline",
+    "status": "active",
+    "mileage": 28450,
+    "fuelEfficiency": 24.5,
+    "insurance": {
+      "provider": "StateFarm",
+      "policyNumber": "SF-VEH-001-2024",
+      "expiryDate": "2024-12-31"
+    },
+    "maintenance": {
+      "lastService": "2024-01-01",
+      "nextService": "2024-04-01",
+      "serviceInterval": 5000
+    }
+  },
+  {
+    "id": "VEH-002",
+    "type": "motorcycle",
+    "make": "Honda",
+    "model": "CB300R",
+    "year": 2023,
+    "licensePlate": "MOT-456",
+    "driverId": "DRV-002",
+    "capacity": {
+      "maxWeight": 20,
+      "maxVolume": 0.8,
+      "dimensions": {
+        "length": 60,
+        "width": 40,
+        "height": 35
+      }
+    },
+    "fuelType": "gasoline",
+    "status": "active",
+    "mileage": 12750,
+    "fuelEfficiency": 65.2,
+    "insurance": {
+      "provider": "Geico",
+      "policyNumber": "GC-MOT-002-2024",
+      "expiryDate": "2024-11-30"
+    },
+    "maintenance": {
+      "lastService": "2023-12-15",
+      "nextService": "2024-03-15",
+      "serviceInterval": 3000
+    }
+  },
+  {
+    "id": "VEH-003",
+    "type": "bicycle",
+    "make": "Trek",
+    "model": "Cargo",
+    "year": 2023,
+    "licensePlate": "BIK-789",
+    "driverId": "DRV-003",
+    "capacity": {
+      "maxWeight": 15,
+      "maxVolume": 0.5,
+      "dimensions": {
+        "length": 50,
+        "width": 30,
+        "height": 25
+      }
+    },
+    "fuelType": "electric",
+    "status": "active",
+    "mileage": 5420,
+    "batteryCapacity": 500,
+    "range": 45,
+    "insurance": {
+      "provider": "Progressive",
+      "policyNumber": "PR-BIK-003-2024",
+      "expiryDate": "2024-10-31"
+    },
+    "maintenance": {
+      "lastService": "2023-11-20",
+      "nextService": "2024-02-20",
+      "serviceInterval": 1000
+    }
+  },
+  {
+    "id": "VEH-004",
+    "type": "van",
+    "make": "Mercedes",
+    "model": "Sprinter",
+    "year": 2021,
+    "licensePlate": "VAN-321",
+    "driverId": "DRV-004",
+    "capacity": {
+      "maxWeight": 75,
+      "maxVolume": 4.0,
+      "dimensions": {
+        "length": 220,
+        "width": 160,
+        "height": 140
+      }
+    },
+    "fuelType": "diesel",
+    "status": "maintenance",
+    "mileage": 45230,
+    "fuelEfficiency": 19.8,
+    "insurance": {
+      "provider": "Allstate",
+      "policyNumber": "AS-VAN-004-2024",
+      "expiryDate": "2024-09-30"
+    },
+    "maintenance": {
+      "lastService": "2024-01-10",
+      "nextService": "2024-06-10",
+      "serviceInterval": 7500,
+      "currentIssue": "Brake inspection required"
+    }
+  },
+  {
+    "id": "VEH-005",
+    "type": "car",
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2023,
+    "licensePlate": "CAR-654",
+    "driverId": "DRV-005",
+    "capacity": {
+      "maxWeight": 30,
+      "maxVolume": 1.2,
+      "dimensions": {
+        "length": 120,
+        "width": 80,
+        "height": 60
+      }
+    },
+    "fuelType": "hybrid",
+    "status": "active",
+    "mileage": 18650,
+    "fuelEfficiency": 52.1,
+    "insurance": {
+      "provider": "USAA",
+      "policyNumber": "US-CAR-005-2024",
+      "expiryDate": "2024-08-31"
+    },
+    "maintenance": {
+      "lastService": "2023-12-05",
+      "nextService": "2024-03-05",
+      "serviceInterval": 5000
+    }
+  }
+]

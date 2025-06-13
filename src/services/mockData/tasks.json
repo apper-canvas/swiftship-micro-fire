@@ -1,0 +1,99 @@
+[
+  {
+    "id": "TSK-001",
+    "orderId": "ORD-2024-001",
+    "driverId": "DRV-001",
+    "type": "pickup",
+    "location": {
+      "address": "123 Main Street, San Francisco, CA 94105",
+      "coordinates": { "lat": 37.7749, "lng": -122.4194 }
+    },
+    "timeWindow": {
+      "start": "2024-01-15T14:00:00Z",
+      "end": "2024-01-15T15:00:00Z"
+    },
+    "status": "completed",
+    "completedAt": "2024-01-15T14:30:00Z",
+    "estimatedDuration": 15,
+    "actualDuration": 12,
+    "notes": "Package collected successfully"
+  },
+  {
+    "id": "TSK-002",
+    "orderId": "ORD-2024-001",
+    "driverId": "DRV-001",
+    "type": "delivery",
+    "location": {
+      "address": "456 Oak Avenue, San Francisco, CA 94102",
+      "coordinates": { "lat": 37.7849, "lng": -122.4094 }
+    },
+    "timeWindow": {
+      "start": "2024-01-15T16:30:00Z",
+      "end": "2024-01-15T17:30:00Z"
+    },
+    "status": "in_progress",
+    "estimatedDuration": 10,
+    "notes": "En route to delivery location"
+  },
+  {
+    "id": "TSK-003",
+    "orderId": "ORD-2024-002",
+    "driverId": "DRV-002",
+    "type": "pickup",
+    "location": {
+      "address": "789 Pine Street, San Francisco, CA 94108",
+      "coordinates": { "lat": 37.7929, "lng": -122.4094 }
+    },
+    "timeWindow": {
+      "start": "2024-01-15T10:30:00Z",
+      "end": "2024-01-15T11:30:00Z"
+    },
+    "status": "completed",
+    "completedAt": "2024-01-15T11:00:00Z",
+    "estimatedDuration": 10,
+    "actualDuration": 8,
+    "notes": "Express pickup completed"
+  },
+  {
+    "id": "TSK-004",
+    "orderId": "ORD-2024-002",
+    "driverId": "DRV-002",
+    "type": "delivery",
+    "location": {
+      "address": "321 Elm Drive, Oakland, CA 94607",
+      "coordinates": { "lat": 37.8044, "lng": -122.2711 }
+    },
+    "timeWindow": {
+      "start": "2024-01-15T12:00:00Z",
+      "end": "2024-01-15T13:00:00Z"
+    },
+    "status": "completed",
+    "completedAt": "2024-01-15T12:30:00Z",
+    "estimatedDuration": 15,
+    "actualDuration": 12,
+    "proofOfDelivery": {
+      "signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA...",
+      "photo": "https://example.com/pod/TSK-004.jpg",
+      "timestamp": "2024-01-15T12:30:00Z",
+      "recipientName": "Michael Rodriguez"
+    },
+    "notes": "Delivered successfully to recipient"
+  },
+  {
+    "id": "TSK-005",
+    "orderId": "ORD-2024-004",
+    "driverId": "DRV-003",
+    "type": "pickup",
+    "location": {
+      "address": "1200 California Street, San Francisco, CA 94109",
+      "coordinates": { "lat": 37.7919, "lng": -122.4147 }
+    },
+    "timeWindow": {
+      "start": "2024-01-15T14:30:00Z",
+      "end": "2024-01-15T15:30:00Z"
+    },
+    "status": "assigned",
+    "estimatedDuration": 12,
+    "notes": "Urgent food delivery pickup"
+  }
+]

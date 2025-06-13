@@ -1,0 +1,183 @@
+[
+  {
+    "id": "ORD-2024-001",
+    "customerId": "CUST-001",
+    "customerName": "Sarah Johnson",
+    "customerPhone": "+1-555-0123",
+    "pickupAddress": {
+      "street": "123 Main Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "coordinates": { "lat": 37.7749, "lng": -122.4194 }
+    },
+    "deliveryAddress": {
+      "street": "456 Oak Avenue",
+      "city": "San Francisco", 
+      "state": "CA",
+      "zipCode": "94102",
+      "coordinates": { "lat": 37.7849, "lng": -122.4094 }
+    },
+    "packageDetails": {
+      "weight": 2.5,
+      "dimensions": { "length": 12, "width": 8, "height": 6 },
+      "type": "electronics",
+      "value": 299.99,
+      "urgent": false,
+      "fragile": true
+    },
+    "status": "in_transit",
+    "assignedDriver": "Sarah Chen",
+    "driverId": "DRV-001",
+    "price": 12.75,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "pickupTime": "2024-01-15T14:30:00Z",
+    "estimatedDelivery": "2024-01-15T16:45:00Z",
+    "trackingNumber": "SW240115001"
+  },
+  {
+    "id": "ORD-2024-002",
+    "customerId": "CUST-002",
+    "customerName": "Michael Rodriguez",
+    "customerPhone": "+1-555-0124",
+    "pickupAddress": {
+      "street": "789 Pine Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94108",
+      "coordinates": { "lat": 37.7929, "lng": -122.4094 }
+    },
+    "deliveryAddress": {
+      "street": "321 Elm Drive",
+      "city": "Oakland",
+      "state": "CA", 
+      "zipCode": "94607",
+      "coordinates": { "lat": 37.8044, "lng": -122.2711 }
+    },
+    "packageDetails": {
+      "weight": 5.2,
+      "dimensions": { "length": 18, "width": 12, "height": 10 },
+      "type": "documents",
+      "value": 0,
+      "urgent": true,
+      "fragile": false
+    },
+    "status": "delivered",
+    "assignedDriver": "Marcus Thompson",
+    "driverId": "DRV-002", 
+    "price": 18.50,
+    "createdAt": "2024-01-15T09:15:00Z",
+    "pickupTime": "2024-01-15T11:00:00Z",
+    "deliveredAt": "2024-01-15T12:30:00Z",
+    "trackingNumber": "SW240115002"
+  },
+  {
+    "id": "ORD-2024-003", 
+    "customerId": "CUST-003",
+    "customerName": "Emily Watson",
+    "customerPhone": "+1-555-0125",
+    "pickupAddress": {
+      "street": "555 Market Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "coordinates": { "lat": 37.7881, "lng": -122.4070 }
+    },
+    "deliveryAddress": {
+      "street": "888 Broadway",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94133",
+      "coordinates": { "lat": 37.7983, "lng": -122.4079 }
+    },
+    "packageDetails": {
+      "weight": 1.8,
+      "dimensions": { "length": 10, "width": 8, "height": 4 },
+      "type": "clothing",
+      "value": 149.99,
+      "urgent": false,
+      "fragile": false
+    },
+    "status": "pending",
+    "assignedDriver": null,
+    "driverId": null,
+    "price": 9.25,
+    "createdAt": "2024-01-15T13:45:00Z",
+    "estimatedPickup": "2024-01-15T15:30:00Z",
+    "estimatedDelivery": "2024-01-15T17:00:00Z",
+    "trackingNumber": "SW240115003"
+  },
+  {
+    "id": "ORD-2024-004",
+    "customerId": "CUST-004", 
+    "customerName": "David Kim",
+    "customerPhone": "+1-555-0126",
+    "pickupAddress": {
+      "street": "1200 California Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94109",
+      "coordinates": { "lat": 37.7919, "lng": -122.4147 }
+    },
+    "deliveryAddress": {
+      "street": "456 Valencia Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94110", 
+      "coordinates": { "lat": 37.7614, "lng": -122.4214 }
+    },
+    "packageDetails": {
+      "weight": 8.5,
+      "dimensions": { "length": 24, "width": 16, "height": 12 },
+      "type": "food",
+      "value": 65.00,
+      "urgent": true,
+      "fragile": false
+    },
+    "status": "pickup_scheduled",
+    "assignedDriver": "Lisa Park",
+    "driverId": "DRV-003",
+    "price": 15.75,
+    "createdAt": "2024-01-15T12:20:00Z",
+    "scheduledPickup": "2024-01-15T15:00:00Z",
+    "estimatedDelivery": "2024-01-15T16:30:00Z",
+    "trackingNumber": "SW240115004"
+  },
+  {
+    "id": "ORD-2024-005",
+    "customerId": "CUST-005",
+    "customerName": "Jennifer Brown",
+    "customerPhone": "+1-555-0127",
+    "pickupAddress": {
+      "street": "300 Montgomery Street",
+      "city": "San Francisco",
+      "state": "CA", 
+      "zipCode": "94104",
+      "coordinates": { "lat": 37.7937, "lng": -122.4024 }
+    },
+    "deliveryAddress": {
+      "street": "750 Harrison Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94107",
+      "coordinates": { "lat": 37.7714, "lng": -122.4014 }
+    },
+    "packageDetails": {
+      "weight": 3.2,
+      "dimensions": { "length": 14, "width": 10, "height": 8 },
+      "type": "books",
+      "value": 89.99,
+      "urgent": false,
+      "fragile": false
+    },
+    "status": "failed_delivery",
+    "assignedDriver": "James Wilson",
+    "driverId": "DRV-004",
+    "price": 11.50,
+    "createdAt": "2024-01-15T08:30:00Z",
+    "pickupTime": "2024-01-15T11:45:00Z",
+    "failedAt": "2024-01-15T14:15:00Z",
+    "failureReason": "Recipient not available",
+    "trackingNumber": "SW240115005"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "DRV-001",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@swiftship.com",
+    "phone": "+1-555-1001",
+    "vehicleId": "VEH-001",
+    "vehicleType": "Van",
+    "licensePlate": "ABC-123",
+    "currentLocation": {
+      "lat": 37.7849,
+      "lng": -122.4094,
+      "address": "456 Oak Avenue, San Francisco, CA"
+    },
+    "status": "busy",
+    "capacity": {
+      "maxWeight": 50,
+      "maxVolume": 2.5,
+      "currentLoad": 15.2
+    },
+    "rating": 4.8,
+    "totalDeliveries": 1247,
+    "completionRate": 98.5,
+    "onTimeRate": 94.2,
+    "joinedDate": "2023-03-15",
+    "lastLocationUpdate": "2024-01-15T16:42:00Z",
+    "todayStats": {
+      "deliveries": 8,
+      "distance": 45.2,
+      "earnings": 156.75,
+      "hoursActive": 7.5
+    }
+  },
+  {
+    "id": "DRV-002",
+    "name": "Marcus Thompson",
+    "email": "marcus.thompson@swiftship.com",
+    "phone": "+1-555-1002",
+    "vehicleId": "VEH-002",
+    "vehicleType": "Motorcycle", 
+    "licensePlate": "MOT-456",
+    "currentLocation": {
+      "lat": 37.8044,
+      "lng": -122.2711,
+      "address": "321 Elm Drive, Oakland, CA"
+    },
+    "status": "available",
+    "capacity": {
+      "maxWeight": 20,
+      "maxVolume": 0.8,
+      "currentLoad": 0
+    },
+    "rating": 4.9,
+    "totalDeliveries": 892,
+    "completionRate": 99.1,
+    "onTimeRate": 96.8,
+    "joinedDate": "2023-06-20",
+    "lastLocationUpdate": "2024-01-15T16:45:00Z",
+    "todayStats": {
+      "deliveries": 12,
+      "distance": 62.8,
+      "earnings": 189.25,
+      "hoursActive": 8.2
+    }
+  },
+  {
+    "id": "DRV-003",
+    "name": "Lisa Park",
+    "email": "lisa.park@swiftship.com",
+    "phone": "+1-555-1003",
+    "vehicleId": "VEH-003",
+    "vehicleType": "Bicycle",
+    "licensePlate": "BIK-789",
+    "currentLocation": {
+      "lat": 37.7919,
+      "lng": -122.4147,
+      "address": "1200 California Street, San Francisco, CA"
+    },
+    "status": "busy",
+    "capacity": {
+      "maxWeight": 15,
+      "maxVolume": 0.5,
+      "currentLoad": 8.5
+    },
+    "rating": 4.7,
+    "totalDeliveries": 654,
+    "completionRate": 97.8,
+    "onTimeRate": 93.5,
+    "joinedDate": "2023-08-10",
+    "lastLocationUpdate": "2024-01-15T16:40:00Z",
+    "todayStats": {
+      "deliveries": 6,
+      "distance": 28.4,
+      "earnings": 95.50,
+      "hoursActive": 6.5
+    }
+  },
+  {
+    "id": "DRV-004",
+    "name": "James Wilson",
+    "email": "james.wilson@swiftship.com",
+    "phone": "+1-555-1004",
+    "vehicleId": "VEH-004",
+    "vehicleType": "Van",
+    "licensePlate": "VAN-321",
+    "currentLocation": {
+      "lat": 37.7714,
+      "lng": -122.4014,
+      "address": "750 Harrison Street, San Francisco, CA"
+    },
+    "status": "offline",
+    "capacity": {
+      "maxWeight": 75,
+      "maxVolume": 4.0,
+      "currentLoad": 0
+    },
+    "rating": 4.6,
+    "totalDeliveries": 1089,
+    "completionRate": 96.3,
+    "onTimeRate": 91.7,
+    "joinedDate": "2023-01-25",
+    "lastLocationUpdate": "2024-01-15T14:15:00Z",
+    "todayStats": {
+      "deliveries": 4,
+      "distance": 32.1,
+      "earnings": 98.25,
+      "hoursActive": 5.0
+    }
+  },
+  {
+    "id": "DRV-005",
+    "name": "Amanda Rodriguez",
+    "email": "amanda.rodriguez@swiftship.com",
+    "phone": "+1-555-1005",
+    "vehicleId": "VEH-005",
+    "vehicleType": "Car",
+    "licensePlate": "CAR-654",
+    "currentLocation": {
+      "lat": 37.7589,
+      "lng": -122.4270,
+      "address": "Golden Gate Park, San Francisco, CA"
+    },
+    "status": "available",
+    "capacity": {
+      "maxWeight": 30,
+      "maxVolume": 1.2,
+      "currentLoad": 0
+    },
+    "rating": 4.9,
+    "totalDeliveries": 723,
+    "completionRate": 98.9,
+    "onTimeRate": 95.4,
+    "joinedDate": "2023-09-05",
+    "lastLocationUpdate": "2024-01-15T16:43:00Z",
+    "todayStats": {
+      "deliveries": 7,
+      "distance": 41.5,
+      "earnings": 134.75,
+      "hoursActive": 7.0
+    }
+  }
+]
