@@ -70,4 +70,14 @@ const orderService = {
   }
 };
 
+// Named exports for individual functions
+export const getOrders = orderService.getAll;
+export const getOrderById = orderService.getById;
+export const createOrder = orderService.create;
+export const updateOrder = orderService.update;
+export const deleteOrder = orderService.delete;
+export const getOrdersByStatus = orderService.getByStatus;
+export const calculateOrderPrice = orderService.calculatePrice;
+
+// Default export for backward compatibility
 export default orderService;
